@@ -1,0 +1,140 @@
+{
+  "algorithm": "RandomForestClassifier",
+  "trained_at": "2026-11-25T11:45:36.688293+00:00",
+  "dataset": {
+    "path": "D:\\health\\data\\disease_symptoms.csv",
+    "total_samples": 4800,
+    "train_samples": 3840,
+    "test_samples": 960,
+    "num_features": 79,
+    "num_diseases": 30
+  },
+  "hyperparameters": {
+    "n_estimators": 300,
+    "max_depth": null,
+    "min_samples_leaf": 1,
+    "class_weight": "balanced",
+    "oob_score": true,
+    "random_state": 42
+  },
+  "evaluation": {
+    "test_accuracy": 0.9833,
+    "test_precision_weighted": 0.9843,
+    "test_recall_weighted": 0.9833,
+    "test_f1_weighted": 0.9834,
+    "holdout_oob_score": 0.9836,
+    "production_oob_score": 0.9823,
+    "cv_folds": 5,
+    "cv_mean_accuracy": 0.9823,
+    "cv_std_accuracy": 0.0031
+  },
+  "top_feature_importances": [
+    {
+      "symptom": "high_fever",
+      "label": "High Fever",
+      "importance": 0.03
+    },
+    {
+      "symptom": "headache",
+      "label": "Headache",
+      "importance": 0.0238
+    },
+    {
+      "symptom": "nausea",
+      "label": "Nausea",
+      "importance": 0.0226
+    },
+    {
+      "symptom": "sweating",
+      "label": "Sweating",
+      "importance": 0.0225
+    },
+    {
+      "symptom": "throbbing_headache",
+      "label": "Throbbing Headache",
+      "importance": 0.0223
+    },
+    {
+      "symptom": "blurred_vision",
+      "label": "Blurred Vision",
+      "importance": 0.0223
+    },
+    {
+      "symptom": "cold_hands_feet",
+      "label": "Cold Hands Feet",
+      "importance": 0.0218
+    },
+    {
+      "symptom": "productive_cough",
+      "label": "Productive Cough",
+      "importance": 0.0196
+    },
+    {
+      "symptom": "itchy_eyes",
+      "label": "Itchy Eyes",
+      "importance": 0.019
+    },
+    {
+      "symptom": "upper_abdominal_pain",
+      "label": "Upper Abdominal Pain",
+      "importance": 0.0187
+    },
+    {
+      "symptom": "weakness",
+      "label": "Weakness",
+      "importance": 0.0185
+    },
+    {
+      "symptom": "sneezing",
+      "label": "Sneezing",
+      "importance": 0.0179
+    },
+    {
+      "symptom": "shortness_of_breath",
+      "label": "Shortness Of Breath",
+      "importance": 0.0176
+    },
+    {
+      "symptom": "fever",
+      "label": "Fever",
+      "importance": 0.0174
+    },
+    {
+      "symptom": "painful_urination",
+      "label": "Painful Urination",
+      "importance": 0.0174
+    }
+  ],
+  "per_class_f1": {
+    "Acute Sinusitis": 0.9508,
+    "Allergic Dermatitis / Urticaria": 0.9846,
+    "Allergic Rhinitis": 1.0,
+    "Anemia": 0.9841,
+    "Appendicitis": 0.9677,
+    "Arthritis": 1.0,
+    "Bronchial Asthma": 1.0,
+    "COVID-19": 1.0,
+    "Common Cold": 0.9552,
+    "Conjunctivitis": 1.0,
+    "Coronary Heart Risk / Angina": 0.9538,
+    "Dengue Fever": 0.9841,
+    "GERD (Acid Reflux)": 0.9677,
+    "Gastroenteritis": 0.9552,
+    "Hepatitis": 0.9697,
+    "Hypertension": 0.9677,
+    "Hyperthyroidism": 1.0,
+    "Hypothyroidism": 1.0,
+    "Influenza (Flu)": 0.9846,
+    "Kidney Stones": 0.9841,
+    "Malaria": 0.9841,
+    "Meningitis": 1.0,
+    "Migraine": 1.0,
+    "Peptic Ulcer Disease": 0.9697,
+    "Pneumonia": 0.9846,
+    "Psoriasis": 0.9841,
+    "Tuberculosis": 1.0,
+    "Type 2 Diabetes": 1.0,
+    "Typhoid Fever": 0.9688,
+    "Urinary Tract Infection (UTI)": 1.0
+  }
+}
